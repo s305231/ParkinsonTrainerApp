@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Parkinson Trainer</string>
+    <string name="image">image</string>
+
+    <string name="top_intro_text">Lets Get Started!</string>
+    <string name="intro_text_description">Intro Text!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="sign_up_description_text">Please enter your Name, Email and password to create a user.</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+
+    <string name="sign_in_description_text">Please enter your Email and Password to sign in.</string>
+
+    <string name="please_wait">Please Wait</string>
+
+    <string name="please_click_back_again_to_exit">Please press back again to exit the application.</string>
+
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_sign_out">Sign Out</string>
+
+    <string name="mobile">Mobile</string>
+    <string name="update">UPDATE</string>
+    <string name="my_profile">My Profile</string>
+
+    <string name="create_workout_title">Create Workout Plan</string>
+    <string name="create">CREATE</string>
+    <string name="workout_name">Workout Name</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="duration">Duration</string>
+    <string name="create_exercise_title">Create Exercise</string>
+
+
+    <string name="hint_list_name">List Name</string>
+    <string name="action_add_list">Add Exercise</string>
+
+
+</resources>

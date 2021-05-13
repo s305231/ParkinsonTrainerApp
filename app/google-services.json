@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580959334209",
+    "project_id": "parkinsonapp-2f656",
+    "storage_bucket": "parkinsonapp-2f656.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580959334209:android:5d6c1a64d11e91af30fbc0",
+        "android_client_info": {
+          "package_name": "com.example.fitnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580959334209-iti3o6nbganripgp1u9ppjq7u5hij2h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhRT0wJ4u-mO6AJkNkpRkRLT77MgrSo5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580959334209-iti3o6nbganripgp1u9ppjq7u5hij2h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

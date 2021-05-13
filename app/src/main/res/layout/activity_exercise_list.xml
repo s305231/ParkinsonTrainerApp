@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.ExerciseListActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_task_list_activity"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tv_select_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/task_list_action_color"
+        android:elevation="@dimen/task_item_add_card_text_elevation"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="@dimen/task_item_add_item_text_padding"
+        android:text="Select as workout"
+        android:textColor="@color/purple_500"
+        android:textSize="@dimen/task_item_add_item_text_size"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_background"
+        android:padding="@dimen/task_list_content_padding">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_exercise_image"
+            android:layout_width="@dimen/workout_image_size"
+            android:layout_height="@dimen/workout_image_size"
+            android:contentDescription="@string/image"
+            android:src="@drawable/ic_workout_place_holder" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_exercise_list"
+            android:layout_width="396dp"
+            android:layout_height="450dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
